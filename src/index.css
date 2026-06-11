@@ -62,3 +62,16 @@
 
 /* Product image skeleton */
 .skeleton { @apply animate-pulse bg-gray-200 rounded-xl; }
+
+/* ── Hero section font-weight override ── */
+.font-bold { font-weight: 700; }
+
+/* Opacity utility extensions (for white-based text-opacity) */
+.text-white\/32 { color: rgba(255, 255, 255, 0.32); }
+.text-white\/38 { color: rgba(255, 255, 255, 0.38); }
+.text-white\/42 { color: rgba(255, 255, 255, 0.42); }
+.text-white\/55 { color: rgba(255, 255, 255, 0.55); }
+.text-white\/65 { color: rgba(255, 255, 255, 0.65); }
+
+/* Border-width 3 */
+.border-3 { border-width: 3px; }
